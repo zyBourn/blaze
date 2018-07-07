@@ -42,7 +42,7 @@ skydoc_repositories()
 git_repository(
     name = "org_magoko_bazel_common_rules",
     remote = "https://github.com/magoko/bazel_common_rules.git",
-    commit = "44d173a2a875474b5570417cbe9772c6154acada",
+    commit = "004d9e7b6d02b39aa55a34879bcbce0395c11a07",
 )
 
 load("@org_magoko_bazel_common_rules//:defs.bzl", "check_bazel_version")
